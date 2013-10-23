@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33C373D16EDC20300F80078 /* FlingerTestListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C33C373B16EDC20300F80078 /* FlingerTestListener.cpp */; };
+		C33C376A16EDD87C00F80078 /* FlingerListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3908A0316EDAF590009D55F /* FlingerListener.cpp */; };
+		C33C376E16EDD87C00F80078 /* FlingerListener.h in Headers */ = {isa = PBXBuildFile; fileRef = C3908A0416EDAF590009D55F /* FlingerListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C33C37DE16EEEB4000F80078 /* FlingerMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C33C37DC16EEEB4000F80078 /* FlingerMac.cpp */; };
+		C33C37DF16EEEB4000F80078 /* FlingerMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C33C37DC16EEEB4000F80078 /* FlingerMac.cpp */; };
+		C33C37E016EEEB4000F80078 /* FlingerMac.h in Headers */ = {isa = PBXBuildFile; fileRef = C33C37DD16EEEB4000F80078 /* FlingerMac.h */; };
+		C33C37E316EEEB5B00F80078 /* FlingerDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C33C37E116EEEB5B00F80078 /* FlingerDriver.cpp */; };
+		C33C37E416EEEB5B00F80078 /* FlingerDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C33C37E116EEEB5B00F80078 /* FlingerDriver.cpp */; };
+		C33C37E516EEEB5B00F80078 /* FlingerDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = C33C37E216EEEB5B00F80078 /* FlingerDriver.h */; };
+		C33C37EB16EEF4BA00F80078 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33C37EA16EEF4B900F80078 /* CoreGraphics.framework */; };
+		C33C37ED16EEF4BF00F80078 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33C37EC16EEF4BF00F80078 /* CoreFoundation.framework */; };
+		C33C37EF16EEF59300F80078 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33C37EE16EEF59300F80078 /* ApplicationServices.framework */; };
+		C33C381116F5739600F80078 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33C381016F5739500F80078 /* Security.framework */; };
+		C33C382016F574A700F80078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33C381F16F574A700F80078 /* main.m */; };
+		C354304C16F57ABB0077A8D0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33C379216EDDB7B00F80078 /* Cocoa.framework */; };
+		C354304E16F57B6C0077A8D0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33C382816F574A800F80078 /* MainMenu.xib */; };
+		C354304F16F57B6E0077A8D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C33C381C16F574A700F80078 /* InfoPlist.strings */; };
+		C354305616F57EC40077A8D0 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33C37EE16EEF59300F80078 /* ApplicationServices.framework */; };
+		C39089F716EDAEED0009D55F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C39089F616EDAEED0009D55F /* main.cpp */; };
+		C3908A0516EDAF590009D55F /* FlingerListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3908A0316EDAF590009D55F /* FlingerListener.cpp */; };
+		C3C6404517374B6E00D741BC /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C6404417374B6E00D741BC /* libLeap.dylib */; };
+		C3C6404617374B7700D741BC /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = C3C6404417374B6E00D741BC /* libLeap.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C33C372816EDB88A00F80078 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				C3C6404617374B7700D741BC /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C304333316F5814E00896548 /* Flinger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Flinger; sourceTree = BUILT_PRODUCTS_DIR; };
+		C304333516F5814E00896548 /* MakeProcessTrustedAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeProcessTrustedAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C304333716F5814E00896548 /* libflinger.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = libflinger.dylib; path = /Users/snooz/dev/leap/flinger/build/Release/libflinger.dylib; sourceTree = "<absolute>"; };
+		C33C373B16EDC20300F80078 /* FlingerTestListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlingerTestListener.cpp; sourceTree = "<group>"; };
+		C33C373C16EDC20300F80078 /* FlingerTestListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlingerTestListener.h; sourceTree = "<group>"; };
+		C33C379216EDDB7B00F80078 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C33C379516EDDB7B00F80078 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C33C379616EDDB7B00F80078 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C33C379716EDDB7B00F80078 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C33C37DC16EEEB4000F80078 /* FlingerMac.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FlingerMac.cpp; path = mac/FlingerMac.cpp; sourceTree = "<group>"; };
+		C33C37DD16EEEB4000F80078 /* FlingerMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlingerMac.h; path = mac/FlingerMac.h; sourceTree = "<group>"; };
+		C33C37E116EEEB5B00F80078 /* FlingerDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlingerDriver.cpp; sourceTree = "<group>"; };
+		C33C37E216EEEB5B00F80078 /* FlingerDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlingerDriver.h; sourceTree = "<group>"; };
+		C33C37EA16EEF4B900F80078 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C33C37EC16EEF4BF00F80078 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C33C37EE16EEF59300F80078 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		C33C381016F5739500F80078 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C33C381B16F574A700F80078 /* MakeProcessTrustedAgent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakeProcessTrustedAgent-Info.plist"; sourceTree = "<group>"; };
+		C33C381D16F574A700F80078 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C33C381F16F574A700F80078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C33C382116F574A700F80078 /* MakeProcessTrustedAgent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MakeProcessTrustedAgent-Prefix.pch"; sourceTree = "<group>"; };
+		C33C382916F574A800F80078 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C39089F616EDAEED0009D55F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C3908A0316EDAF590009D55F /* FlingerListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlingerListener.cpp; sourceTree = "<group>"; };
+		C3908A0416EDAF590009D55F /* FlingerListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlingerListener.h; sourceTree = "<group>"; };
+		C3C6404417374B6E00D741BC /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = "../LeapSDK/lib/libc++/libLeap.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33C376B16EDD87C00F80078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33C381316F574A700F80078 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C354305616F57EC40077A8D0 /* ApplicationServices.framework in Frameworks */,
+				C354304C16F57ABB0077A8D0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39089EF16EDAEED0009D55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33C381116F5739600F80078 /* Security.framework in Frameworks */,
+				C33C37EF16EEF59300F80078 /* ApplicationServices.framework in Frameworks */,
+				C33C37ED16EEF4BF00F80078 /* CoreFoundation.framework in Frameworks */,
+				C33C37EB16EEF4BA00F80078 /* CoreGraphics.framework in Frameworks */,
+				C3C6404517374B6E00D741BC /* libLeap.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33C373A16EDC1DD00F80078 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				C39089F616EDAEED0009D55F /* main.cpp */,
+				C33C373B16EDC20300F80078 /* FlingerTestListener.cpp */,
+				C33C373C16EDC20300F80078 /* FlingerTestListener.h */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		C33C379116EDDB7B00F80078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3C6404417374B6E00D741BC /* libLeap.dylib */,
+				C33C379216EDDB7B00F80078 /* Cocoa.framework */,
+				C33C379416EDDB7B00F80078 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C33C379416EDDB7B00F80078 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33C379516EDDB7B00F80078 /* AppKit.framework */,
+				C33C379616EDDB7B00F80078 /* CoreData.framework */,
+				C33C379716EDDB7B00F80078 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C33C37DA16EEEB0F00F80078 /* driver */ = {
+			isa = PBXGroup;
+			children = (
+				C33C37DC16EEEB4000F80078 /* FlingerMac.cpp */,
+				C33C37DD16EEEB4000F80078 /* FlingerMac.h */,
+				C33C37E116EEEB5B00F80078 /* FlingerDriver.cpp */,
+				C33C37E216EEEB5B00F80078 /* FlingerDriver.h */,
+			);
+			name = driver;
+			sourceTree = "<group>";
+		};
+		C33C381916F574A700F80078 /* MakeProcessTrustedAgent */ = {
+			isa = PBXGroup;
+			children = (
+				C33C382816F574A800F80078 /* MainMenu.xib */,
+				C33C381A16F574A700F80078 /* Supporting Files */,
+			);
+			path = MakeProcessTrustedAgent;
+			sourceTree = "<group>";
+		};
+		C33C381A16F574A700F80078 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33C381B16F574A700F80078 /* MakeProcessTrustedAgent-Info.plist */,
+				C33C381C16F574A700F80078 /* InfoPlist.strings */,
+				C33C381F16F574A700F80078 /* main.m */,
+				C33C382116F574A700F80078 /* MakeProcessTrustedAgent-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C39089E716EDAEED0009D55F = {
+			isa = PBXGroup;
+			children = (
+				C33C381016F5739500F80078 /* Security.framework */,
+				C33C37EE16EEF59300F80078 /* ApplicationServices.framework */,
+				C33C37EC16EEF4BF00F80078 /* CoreFoundation.framework */,
+				C33C37EA16EEF4B900F80078 /* CoreGraphics.framework */,
+				C39089F516EDAEED0009D55F /* flinger */,
+				C33C381916F574A700F80078 /* MakeProcessTrustedAgent */,
+				C33C379116EDDB7B00F80078 /* Frameworks */,
+				C304333316F5814E00896548 /* Flinger */,
+				C304333516F5814E00896548 /* MakeProcessTrustedAgent.app */,
+			);
+			sourceTree = "<group>";
+		};
+		C39089F516EDAEED0009D55F /* flinger */ = {
+			isa = PBXGroup;
+			children = (
+				C33C37DA16EEEB0F00F80078 /* driver */,
+				C33C373A16EDC1DD00F80078 /* test */,
+				C3908A0316EDAF590009D55F /* FlingerListener.cpp */,
+				C3908A0416EDAF590009D55F /* FlingerListener.h */,
+			);
+			path = flinger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C33C376D16EDD87C00F80078 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33C376E16EDD87C00F80078 /* FlingerListener.h in Headers */,
+				C33C37E016EEEB4000F80078 /* FlingerMac.h in Headers */,
+				C33C37E516EEEB5B00F80078 /* FlingerDriver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C33C376816EDD87C00F80078 /* flingerlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33C376F16EDD87C00F80078 /* Build configuration list for PBXNativeTarget "flingerlib" */;
+			buildPhases = (
+				C33C376916EDD87C00F80078 /* Sources */,
+				C33C376B16EDD87C00F80078 /* Frameworks */,
+				C33C376D16EDD87C00F80078 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flingerlib;
+			productName = libflinger;
+			productReference = C304333716F5814E00896548 /* libflinger.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		C33C381516F574A700F80078 /* MakeProcessTrustedAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33C382B16F574A800F80078 /* Build configuration list for PBXNativeTarget "MakeProcessTrustedAgent" */;
+			buildPhases = (
+				C33C381216F574A700F80078 /* Sources */,
+				C33C381316F574A700F80078 /* Frameworks */,
+				C33C381416F574A700F80078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeProcessTrustedAgent;
+			productName = MakeProcessTrustedAgent;
+			productReference = C304333516F5814E00896548 /* MakeProcessTrustedAgent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C39089F116EDAEED0009D55F /* Flinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39089FC16EDAEED0009D55F /* Build configuration list for PBXNativeTarget "Flinger" */;
+			buildPhases = (
+				C39089EE16EDAEED0009D55F /* Sources */,
+				C39089EF16EDAEED0009D55F /* Frameworks */,
+				C33C372816EDB88A00F80078 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flinger;
+			productName = flinger;
+			productReference = C304333316F5814E00896548 /* Flinger */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39089E916EDAEED0009D55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C39089EC16EDAEED0009D55F /* Build configuration list for PBXProject "flinger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C39089E716EDAEED0009D55F;
+			productRefGroup = C39089E716EDAEED0009D55F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39089F116EDAEED0009D55F /* Flinger */,
+				C33C381516F574A700F80078 /* MakeProcessTrustedAgent */,
+				C33C376816EDD87C00F80078 /* flingerlib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33C381416F574A700F80078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C354304E16F57B6C0077A8D0 /* MainMenu.xib in Resources */,
+				C354304F16F57B6E0077A8D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33C376916EDD87C00F80078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33C376A16EDD87C00F80078 /* FlingerListener.cpp in Sources */,
+				C33C37DF16EEEB4000F80078 /* FlingerMac.cpp in Sources */,
+				C33C37E416EEEB5B00F80078 /* FlingerDriver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33C381216F574A700F80078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33C382016F574A700F80078 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39089EE16EDAEED0009D55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39089F716EDAEED0009D55F /* main.cpp in Sources */,
+				C3908A0516EDAF590009D55F /* FlingerListener.cpp in Sources */,
+				C33C373D16EDC20300F80078 /* FlingerTestListener.cpp in Sources */,
+				C33C37DE16EEEB4000F80078 /* FlingerMac.cpp in Sources */,
+				C33C37E316EEEB5B00F80078 /* FlingerDriver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C33C381C16F574A700F80078 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33C381D16F574A700F80078 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C33C382816F574A800F80078 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33C382916F574A800F80078 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C33C377016EDD87C00F80078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Leap_SDK/lib/libc++\"",
+				);
+				PRODUCT_NAME = flinger;
+			};
+			name = Debug;
+		};
+		C33C377116EDD87C00F80078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Leap_SDK/lib/libc++\"",
+				);
+				PRODUCT_NAME = flinger;
+			};
+			name = Release;
+		};
+		C33C382C16F574A800F80078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakeProcessTrustedAgent/MakeProcessTrustedAgent-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MakeProcessTrustedAgent/MakeProcessTrustedAgent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C33C382D16F574A800F80078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakeProcessTrustedAgent/MakeProcessTrustedAgent-Prefix.pch";
+				INFOPLIST_FILE = "MakeProcessTrustedAgent/MakeProcessTrustedAgent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C39089FA16EDAEED0009D55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"FLINGER_MAC=1",
+					"DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../LeapSDK/include";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C39089FB16EDAEED0009D55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "FLINGER_MAC=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../LeapSDK/include";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C39089FD16EDAEED0009D55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../LeapSDK/lib/libc++\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C39089FE16EDAEED0009D55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../LeapSDK/lib/libc++\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33C376F16EDD87C00F80078 /* Build configuration list for PBXNativeTarget "flingerlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33C377016EDD87C00F80078 /* Debug */,
+				C33C377116EDD87C00F80078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33C382B16F574A800F80078 /* Build configuration list for PBXNativeTarget "MakeProcessTrustedAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33C382C16F574A800F80078 /* Debug */,
+				C33C382D16F574A800F80078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39089EC16EDAEED0009D55F /* Build configuration list for PBXProject "flinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39089FA16EDAEED0009D55F /* Debug */,
+				C39089FB16EDAEED0009D55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39089FC16EDAEED0009D55F /* Build configuration list for PBXNativeTarget "Flinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39089FD16EDAEED0009D55F /* Debug */,
+				C39089FE16EDAEED0009D55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C39089E916EDAEED0009D55F /* Project object */;
+}
