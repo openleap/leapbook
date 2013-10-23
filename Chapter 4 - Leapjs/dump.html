@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="../leapjs/leap.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            Leap.loop(function(frame) {
+                // get all fingers+tools
+                var pointables = frame.pointables;
+                if (! pointables.length)
+                    return;
+
+                for (var i = 0; i < pointables.length; i++) {
+                    var pointable = pointables[i];
+
+                    // get fingertip position
+                    var pos = pointable.tipPosition;
+                    if (! pos)
+                        return;
+
+                    console.log(pos);
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Whatup. Peep the JavaScript console.</h1>
+    </body>
+</html>

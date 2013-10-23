@@ -5,16 +5,12 @@ using namespace std;
 
 class Quickstart : public Leap::Listener {
 public:
-    virtual void onInit(const Leap::Controller &);
+    virtual void onConnect(const Leap::Controller &);
     virtual void onFrame(const Leap::Controller &);
 };
 
-void Quickstart::onInit(const Leap::Controller &controller) {
-    if (! controller.isConnected()) {
-        // controller is not connected or the driver software is not started.
-        // give the user a friendly reminder that we can't do anything yet
-        cout << "Please connect your Leap Motion and run the Leap application" << endl;
-    }
+void Quickstart::onConnect(const Leap::Controller &controller) {
+    std::cout << "Hello, Leap user!\n";
 }
 
 void Quickstart::onFrame(const Leap::Controller &controller) {
@@ -27,15 +23,27 @@ void Quickstart::onFrame(const Leap::Controller &controller) {
     if (frame.hands().empty())
         return;
     
-    // retrieve first pointable object (finger or tool)
-    // from the frame
-    const Leap::PointableList pointables = frame.hands()[0].pointables();
-    if (pointables.empty())
-        return;
+    // first detected hand
+    const Leap::Hand firstHand = frame.hands()[0];
+    // first pointable object (finger or tool)
+    const Leap::PointableList pointables = firstHand.pointables();
+    if (pointables.empty()) return;
     const Leap::Pointable firstPointable = pointables[0];
     
     // print velocity on the X axis
     cout << "Pointable X velocity: " << firstPointable.tipVelocity()[0] << endl;
+    
+    const Leap::FingerList fingers = firstHand.fingers();
+    if (fingers.empty()) return;
+    
+    for (int i = 0; i < fingers.count(); i++) {
+        const Leap::Finger finger = fingers[i];
+        
+        std::cout << "Detected finger " << i << " at position (" <<
+            finger.tipPosition().x << ", " <<
+            finger.tipPosition().y << ", " <<
+            finger.tipPosition().z << ")" << std::endl;
+    }
 }
 
 int main() {
