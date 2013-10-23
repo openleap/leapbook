@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6044028916D0A68500B5C7DF /* FingerPositionY.h in Headers */ = {isa = PBXBuildFile; fileRef = 6044028816D0A68500B5C7DF /* FingerPositionY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3027D2316DDB4810026718C /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3027D2216DDB4810026718C /* CoreMIDI.framework */; };
+		C3027D2416DDB48B0026718C /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3027D2216DDB4810026718C /* CoreMIDI.framework */; };
+		C3027D2616DDB4FA0026718C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3027D2516DDB4FA0026718C /* CoreFoundation.framework */; };
+		C33EF31516673851001D3D0E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33EF31416673851001D3D0E /* OpenGL.framework */; };
+		C33EF32616673D10001D3D0E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C33EF32516673D10001D3D0E /* main.cpp */; };
+		C33EF32D16673D1D001D3D0E /* leapmidi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C33EF2AF16672833001D3D0E /* leapmidi.a */; };
+		C35F6D8516704EAF000CEF49 /* MIDIListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35F6D8316704EAF000CEF49 /* MIDIListener.cpp */; };
+		C35F6D8616704EAF000CEF49 /* MIDIListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35F6D8316704EAF000CEF49 /* MIDIListener.cpp */; };
+		C35F6D8716704EAF000CEF49 /* MIDIListener.h in Headers */ = {isa = PBXBuildFile; fileRef = C35F6D8416704EAF000CEF49 /* MIDIListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35F6D8D16704FD4000CEF49 /* MIDIGesture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35F6D8B16704FD4000CEF49 /* MIDIGesture.cpp */; };
+		C35F6D8E16704FD4000CEF49 /* MIDIGesture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35F6D8B16704FD4000CEF49 /* MIDIGesture.cpp */; };
+		C35F6D8F16704FD4000CEF49 /* MIDIGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = C35F6D8C16704FD4000CEF49 /* MIDIGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35F6D92167052B4000CEF49 /* MIDIControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35F6D90167052B3000CEF49 /* MIDIControl.cpp */; };
+		C35F6D93167052B4000CEF49 /* MIDIControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35F6D90167052B3000CEF49 /* MIDIControl.cpp */; };
+		C35F6D94167052B4000CEF49 /* MIDIControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C35F6D91167052B4000CEF49 /* MIDIControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35F6D9B16705DBB000CEF49 /* BallGesture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35F6D9916705DBB000CEF49 /* BallGesture.cpp */; };
+		C35F6D9C16705DBB000CEF49 /* BallGesture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35F6D9916705DBB000CEF49 /* BallGesture.cpp */; };
+		C35F6D9D16705DBB000CEF49 /* BallGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = C35F6D9A16705DBB000CEF49 /* BallGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35F6DA01671B460000CEF49 /* BallRadius.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35F6D9E1671B460000CEF49 /* BallRadius.cpp */; };
+		C35F6DA11671B460000CEF49 /* BallRadius.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35F6D9E1671B460000CEF49 /* BallRadius.cpp */; };
+		C35F6DA21671B460000CEF49 /* BallRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = C35F6D9F1671B460000CEF49 /* BallRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C387D009175BCD73004FF256 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C387D008175BCD73004FF256 /* libLeap.dylib */; };
+		C387D00C175BCD9D004FF256 /* Leap.h in Headers */ = {isa = PBXBuildFile; fileRef = C387D00A175BCD9D004FF256 /* Leap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C387D00D175BCD9D004FF256 /* LeapMath.h in Headers */ = {isa = PBXBuildFile; fileRef = C387D00B175BCD9D004FF256 /* LeapMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C387D00E175BCDD5004FF256 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C387D008175BCD73004FF256 /* libLeap.dylib */; };
+		C3BF4B7516D053C40091DE62 /* LeapMIDI.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BF4B7416D053C40091DE62 /* LeapMIDI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C2E7B5167D45650031B430 /* FingerPositionX.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C2E7B2167D45650031B430 /* FingerPositionX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C2E7BA167D496D0031B430 /* FingerPositionZ.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C2E7B9167D496D0031B430 /* FingerPositionZ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C6C1FE175BD1990018AABD /* MIDINote.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C6C1FD175BD1990018AABD /* MIDINote.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C6C20D175BD27E0018AABD /* MIDIMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3C6C20B175BD27E0018AABD /* MIDIMessage.cpp */; };
+		C3C6C20E175BD27E0018AABD /* MIDIMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3C6C20B175BD27E0018AABD /* MIDIMessage.cpp */; };
+		C3C6C20F175BD27E0018AABD /* MIDIMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C6C20C175BD27E0018AABD /* MIDIMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3EAA989167AD5FE00497E33 /* FingerGesture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3EAA987167AD5FE00497E33 /* FingerGesture.cpp */; };
+		C3EAA98A167AD5FE00497E33 /* FingerGesture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3EAA987167AD5FE00497E33 /* FingerGesture.cpp */; };
+		C3EAA98B167AD5FE00497E33 /* FingerGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = C3EAA988167AD5FE00497E33 /* FingerGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3EAA98F167AD69300497E33 /* FingerPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3EAA98D167AD69300497E33 /* FingerPosition.cpp */; };
+		C3EAA990167AD69300497E33 /* FingerPosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3EAA98D167AD69300497E33 /* FingerPosition.cpp */; };
+		C3EAA991167AD69300497E33 /* FingerPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = C3EAA98E167AD69300497E33 /* FingerPosition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33EF32E16673D21001D3D0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33EF2A616672833001D3D0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33EF2AE16672833001D3D0E;
+			remoteInfo = leapmidi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C33EF32016673D10001D3D0E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6044028816D0A68500B5C7DF /* FingerPositionY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerPositionY.h; sourceTree = "<group>"; };
+		C3027D2216DDB4810026718C /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		C3027D2516DDB4FA0026718C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C33EF2AF16672833001D3D0E /* leapmidi.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = leapmidi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33EF2B416672833001D3D0E /* leapmidiProj.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = leapmidiProj.xcconfig; sourceTree = "<group>"; };
+		C33EF2B516672833001D3D0E /* leapmidiTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = leapmidiTarget.xcconfig; sourceTree = "<group>"; };
+		C33EF31416673851001D3D0E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C33EF32216673D10001D3D0E /* leapmidi_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leapmidi_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33EF32516673D10001D3D0E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C35F6D8316704EAF000CEF49 /* MIDIListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIListener.cpp; sourceTree = "<group>"; };
+		C35F6D8416704EAF000CEF49 /* MIDIListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIListener.h; sourceTree = "<group>"; };
+		C35F6D8B16704FD4000CEF49 /* MIDIGesture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIGesture.cpp; sourceTree = "<group>"; };
+		C35F6D8C16704FD4000CEF49 /* MIDIGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIGesture.h; sourceTree = "<group>"; };
+		C35F6D90167052B3000CEF49 /* MIDIControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIControl.cpp; sourceTree = "<group>"; };
+		C35F6D91167052B4000CEF49 /* MIDIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIControl.h; sourceTree = "<group>"; };
+		C35F6D9916705DBB000CEF49 /* BallGesture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = BallGesture.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		C35F6D9A16705DBB000CEF49 /* BallGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BallGesture.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C35F6D9E1671B460000CEF49 /* BallRadius.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallRadius.cpp; sourceTree = "<group>"; };
+		C35F6D9F1671B460000CEF49 /* BallRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallRadius.h; sourceTree = "<group>"; };
+		C387D008175BCD73004FF256 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = "../LeapSDK/lib/libc++/libLeap.dylib"; sourceTree = "<group>"; };
+		C387D00A175BCD9D004FF256 /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		C387D00B175BCD9D004FF256 /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMath.h; sourceTree = "<group>"; };
+		C3BF4B7416D053C40091DE62 /* LeapMIDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMIDI.h; sourceTree = "<group>"; };
+		C3C2E7B2167D45650031B430 /* FingerPositionX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerPositionX.h; sourceTree = "<group>"; };
+		C3C2E7B9167D496D0031B430 /* FingerPositionZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerPositionZ.h; sourceTree = "<group>"; };
+		C3C6C1FD175BD1990018AABD /* MIDINote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDINote.h; sourceTree = "<group>"; };
+		C3C6C20B175BD27E0018AABD /* MIDIMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIMessage.cpp; sourceTree = "<group>"; };
+		C3C6C20C175BD27E0018AABD /* MIDIMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIMessage.h; sourceTree = "<group>"; };
+		C3EAA987167AD5FE00497E33 /* FingerGesture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerGesture.cpp; sourceTree = "<group>"; };
+		C3EAA988167AD5FE00497E33 /* FingerGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerGesture.h; sourceTree = "<group>"; };
+		C3EAA98D167AD69300497E33 /* FingerPosition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FingerPosition.cpp; sourceTree = "<group>"; };
+		C3EAA98E167AD69300497E33 /* FingerPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerPosition.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33EF2AC16672833001D3D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3027D2316DDB4810026718C /* CoreMIDI.framework in Frameworks */,
+				C33EF31516673851001D3D0E /* OpenGL.framework in Frameworks */,
+				C387D009175BCD73004FF256 /* libLeap.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33EF31F16673D10001D3D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C387D00E175BCDD5004FF256 /* libLeap.dylib in Frameworks */,
+				C3027D2616DDB4FA0026718C /* CoreFoundation.framework in Frameworks */,
+				C3027D2416DDB48B0026718C /* CoreMIDI.framework in Frameworks */,
+				C33EF32D16673D1D001D3D0E /* leapmidi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C31B002E1675A39700383230 /* visualizers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = visualizers;
+			sourceTree = "<group>";
+		};
+		C33EF2A416672833001D3D0E = {
+			isa = PBXGroup;
+			children = (
+				C387D008175BCD73004FF256 /* libLeap.dylib */,
+				C3027D2516DDB4FA0026718C /* CoreFoundation.framework */,
+				C3027D2216DDB4810026718C /* CoreMIDI.framework */,
+				C33EF31416673851001D3D0E /* OpenGL.framework */,
+				C33EF2B116672833001D3D0E /* leapmidi */,
+				C33EF32416673D10001D3D0E /* leapmidi_test */,
+				C33EF2B016672833001D3D0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33EF2B016672833001D3D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33EF2AF16672833001D3D0E /* leapmidi.a */,
+				C33EF32216673D10001D3D0E /* leapmidi_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33EF2B116672833001D3D0E /* leapmidi */ = {
+			isa = PBXGroup;
+			children = (
+				C33EF2B416672833001D3D0E /* leapmidiProj.xcconfig */,
+				C33EF2B516672833001D3D0E /* leapmidiTarget.xcconfig */,
+				C31B002E1675A39700383230 /* visualizers */,
+				C35F6D9616705659000CEF49 /* controls */,
+				C35F6D951670564C000CEF49 /* gestures */,
+				C33EF316166738D3001D3D0E /* contrib */,
+				C3BF4B7416D053C40091DE62 /* LeapMIDI.h */,
+				C35F6D8316704EAF000CEF49 /* MIDIListener.cpp */,
+				C35F6D8416704EAF000CEF49 /* MIDIListener.h */,
+			);
+			path = leapmidi;
+			sourceTree = "<group>";
+		};
+		C33EF316166738D3001D3D0E /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				C387D00A175BCD9D004FF256 /* Leap.h */,
+				C387D00B175BCD9D004FF256 /* LeapMath.h */,
+			);
+			path = contrib;
+			sourceTree = SOURCE_ROOT;
+		};
+		C33EF32416673D10001D3D0E /* leapmidi_test */ = {
+			isa = PBXGroup;
+			children = (
+				C33EF32516673D10001D3D0E /* main.cpp */,
+			);
+			path = leapmidi_test;
+			sourceTree = "<group>";
+		};
+		C35F6D951670564C000CEF49 /* gestures */ = {
+			isa = PBXGroup;
+			children = (
+				C35F6D8B16704FD4000CEF49 /* MIDIGesture.cpp */,
+				C35F6D8C16704FD4000CEF49 /* MIDIGesture.h */,
+				C35F6D9916705DBB000CEF49 /* BallGesture.cpp */,
+				C35F6D9A16705DBB000CEF49 /* BallGesture.h */,
+				C3EAA987167AD5FE00497E33 /* FingerGesture.cpp */,
+				C3EAA988167AD5FE00497E33 /* FingerGesture.h */,
+			);
+			name = gestures;
+			sourceTree = "<group>";
+		};
+		C35F6D9616705659000CEF49 /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				C3C6C20B175BD27E0018AABD /* MIDIMessage.cpp */,
+				C3C6C20C175BD27E0018AABD /* MIDIMessage.h */,
+				C3C6C1FD175BD1990018AABD /* MIDINote.h */,
+				C35F6D90167052B3000CEF49 /* MIDIControl.cpp */,
+				C35F6D91167052B4000CEF49 /* MIDIControl.h */,
+				C35F6D9E1671B460000CEF49 /* BallRadius.cpp */,
+				C35F6D9F1671B460000CEF49 /* BallRadius.h */,
+				C3EAA98D167AD69300497E33 /* FingerPosition.cpp */,
+				C3EAA98E167AD69300497E33 /* FingerPosition.h */,
+				C3C2E7B2167D45650031B430 /* FingerPositionX.h */,
+				6044028816D0A68500B5C7DF /* FingerPositionY.h */,
+				C3C2E7B9167D496D0031B430 /* FingerPositionZ.h */,
+			);
+			name = controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C33EF2AD16672833001D3D0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BF4B7516D053C40091DE62 /* LeapMIDI.h in Headers */,
+				C35F6D8F16704FD4000CEF49 /* MIDIGesture.h in Headers */,
+				C35F6D94167052B4000CEF49 /* MIDIControl.h in Headers */,
+				C35F6D8716704EAF000CEF49 /* MIDIListener.h in Headers */,
+				C35F6D9D16705DBB000CEF49 /* BallGesture.h in Headers */,
+				C3EAA991167AD69300497E33 /* FingerPosition.h in Headers */,
+				C3EAA98B167AD5FE00497E33 /* FingerGesture.h in Headers */,
+				C3C2E7B5167D45650031B430 /* FingerPositionX.h in Headers */,
+				6044028916D0A68500B5C7DF /* FingerPositionY.h in Headers */,
+				C3C2E7BA167D496D0031B430 /* FingerPositionZ.h in Headers */,
+				C387D00C175BCD9D004FF256 /* Leap.h in Headers */,
+				C387D00D175BCD9D004FF256 /* LeapMath.h in Headers */,
+				C35F6DA21671B460000CEF49 /* BallRadius.h in Headers */,
+				C3C6C20F175BD27E0018AABD /* MIDIMessage.h in Headers */,
+				C3C6C1FE175BD1990018AABD /* MIDINote.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C33EF2AE16672833001D3D0E /* leapmidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33EF2BC16672833001D3D0E /* Build configuration list for PBXNativeTarget "leapmidi" */;
+			buildPhases = (
+				C33EF2AB16672833001D3D0E /* Sources */,
+				C33EF2AC16672833001D3D0E /* Frameworks */,
+				C33EF2AD16672833001D3D0E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leapmidi;
+			productName = leapmidi;
+			productReference = C33EF2AF16672833001D3D0E /* leapmidi.a */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		C33EF32116673D10001D3D0E /* leapmidi_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33EF32B16673D10001D3D0E /* Build configuration list for PBXNativeTarget "leapmidi_test" */;
+			buildPhases = (
+				C33EF31E16673D10001D3D0E /* Sources */,
+				C33EF31F16673D10001D3D0E /* Frameworks */,
+				C33EF32016673D10001D3D0E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33EF32F16673D21001D3D0E /* PBXTargetDependency */,
+			);
+			name = leapmidi_test;
+			productName = leapmidi_test;
+			productReference = C33EF32216673D10001D3D0E /* leapmidi_test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33EF2A616672833001D3D0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = int80;
+			};
+			buildConfigurationList = C33EF2A916672833001D3D0E /* Build configuration list for PBXProject "leapmidi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C33EF2A416672833001D3D0E;
+			productRefGroup = C33EF2B016672833001D3D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33EF2AE16672833001D3D0E /* leapmidi */,
+				C33EF32116673D10001D3D0E /* leapmidi_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33EF2AB16672833001D3D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35F6D8516704EAF000CEF49 /* MIDIListener.cpp in Sources */,
+				C35F6D8D16704FD4000CEF49 /* MIDIGesture.cpp in Sources */,
+				C35F6D92167052B4000CEF49 /* MIDIControl.cpp in Sources */,
+				C35F6D9B16705DBB000CEF49 /* BallGesture.cpp in Sources */,
+				C35F6DA01671B460000CEF49 /* BallRadius.cpp in Sources */,
+				C3EAA989167AD5FE00497E33 /* FingerGesture.cpp in Sources */,
+				C3EAA98F167AD69300497E33 /* FingerPosition.cpp in Sources */,
+				C3C6C20D175BD27E0018AABD /* MIDIMessage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33EF31E16673D10001D3D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33EF32616673D10001D3D0E /* main.cpp in Sources */,
+				C35F6D8616704EAF000CEF49 /* MIDIListener.cpp in Sources */,
+				C35F6D8E16704FD4000CEF49 /* MIDIGesture.cpp in Sources */,
+				C35F6D93167052B4000CEF49 /* MIDIControl.cpp in Sources */,
+				C35F6D9C16705DBB000CEF49 /* BallGesture.cpp in Sources */,
+				C35F6DA11671B460000CEF49 /* BallRadius.cpp in Sources */,
+				C3EAA98A167AD5FE00497E33 /* FingerGesture.cpp in Sources */,
+				C3EAA990167AD69300497E33 /* FingerPosition.cpp in Sources */,
+				C3C6C20E175BD27E0018AABD /* MIDIMessage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33EF32F16673D21001D3D0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33EF2AE16672833001D3D0E /* leapmidi */;
+			targetProxy = C33EF32E16673D21001D3D0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C33EF2BA16672833001D3D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "LeapMIDI_OSX=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C33EF2BB16672833001D3D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "LeapMIDI_OSX=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C33EF2BD16672833001D3D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_EXTENSION = a;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/contrib\"",
+					"\"$(SRCROOT)/../LeapSDK/lib\"",
+					"\"$(SRCROOT)/../LeapSDK/lib/libc++\"",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C33EF2BE16672833001D3D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_EXTENSION = a;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/contrib\"",
+					"\"$(SRCROOT)/../LeapSDK/lib\"",
+					"\"$(SRCROOT)/../LeapSDK/lib/libc++\"",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C33EF32916673D10001D3D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/contrib\"",
+					"\"$(SRCROOT)/../Leap_SDK/lib\"",
+					"\"$(SRCROOT)/../LeapSDK/lib/libc++\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C33EF32A16673D10001D3D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/contrib\"",
+					"\"$(SRCROOT)/../Leap_SDK/lib\"",
+					"\"$(SRCROOT)/../LeapSDK/lib/libc++\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33EF2A916672833001D3D0E /* Build configuration list for PBXProject "leapmidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33EF2BA16672833001D3D0E /* Debug */,
+				C33EF2BB16672833001D3D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33EF2BC16672833001D3D0E /* Build configuration list for PBXNativeTarget "leapmidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33EF2BD16672833001D3D0E /* Debug */,
+				C33EF2BE16672833001D3D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33EF32B16673D10001D3D0E /* Build configuration list for PBXNativeTarget "leapmidi_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33EF32916673D10001D3D0E /* Debug */,
+				C33EF32A16673D10001D3D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33EF2A616672833001D3D0E /* Project object */;
+}
